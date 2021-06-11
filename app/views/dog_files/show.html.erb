@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dog_file.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @dog_file.user_id %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @dog_file.sex %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @dog_file.weight %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @dog_file.age %>
+</p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @dog_file.breed %>
+</p>
+
+<%= link_to 'Edit', edit_dog_file_path(@dog_file) %> |
+<%= link_to 'Back', dog_files_path %>
